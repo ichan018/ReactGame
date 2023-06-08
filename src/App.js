@@ -1,21 +1,35 @@
 import './App.css';
+import ivan_screenshot from './ivan_screenshot.png';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world!
-        </p>
+        <div>
+          <img src={ivan_screenshot} alt="Ivan's face" height={200} width={175}/>
+        </div>
+        <p>Hello world!</p>
+        <p>I am Ivan Chan, an aspiring software engineer.</p>
+        <p>Check out these links:</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ivan-s-chan.w3spaces.com/"
           target="_blank"
           rel="nooimport logo from './logo.svg';
 pener noreferrer"
         >
-          Learn React
+          My CS Portfolio
+        </a>
+        
+        <a
+          className="App-link2"
+          href="https://www.linkedin.com/in/ivan-s-chan/"
+          target="_blank"
+          rel="nooimport logo from './logo.svg';
+pener noreferrer"
+        >
+          Linkedin
         </a>
       </header>
     </div>
