@@ -1,5 +1,6 @@
 # My React App
-![Screenshot with Ivan's face and website links] (/ivan_react_screenshot_20230608.png?raw=true)
+
+<img src = "ivan_react_screenshot_20230608.png" alt="Screenshot of app">
 This is my first React App.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
